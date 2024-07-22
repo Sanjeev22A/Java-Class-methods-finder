@@ -11,7 +11,7 @@ Usage : compile the program as
 
 
 Notes about the methods used:
-        ClassObject.getConstructor() - returns an array of Constructor object (constructor of a class as specified by class object)
+        ClassObject.getConstructor() - returns an array of Constructor object (constructor of a class as specified by class object) \n
         ClassObject.getMethods() -returns an array of method object (methods present in a class as specified by class object)
         Pattern.compile(regularExpressionString) - a static method of Pattern class which takes in a regular expression string and returns a Pattern object 
         PatternObject.matcher(String) - returns the reference to all the parts of the string that match the pattern as specified by the compiled pattern
