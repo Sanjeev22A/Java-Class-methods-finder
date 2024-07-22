@@ -10,7 +10,7 @@ Usage : compile the program as
               java ShowMethods qualified.class.name   word  ///methods with this word in their name as substring will be displayed
 
 
-Notes about the methods used:
+Notes about the methods used: <br />
         ClassObject.getConstructor() - returns an array of Constructor object (constructor of a class as specified by class object) <br />
         ClassObject.getMethods() -returns an array of method object (methods present in a class as specified by class object) <br />
         Pattern.compile(regularExpressionString) - a static method of Pattern class which takes in a regular expression string and returns a Pattern object  <br />
